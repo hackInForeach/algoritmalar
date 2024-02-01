@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SezarSifreleme {
 	public static void main(String[] args) {
 		int j = 1;
-		String metin = "SILA KARDELEN".toLowerCase();
+		String metin = "boğa".toLowerCase();
 		while (j<29) {
 			String a = "abcçdefgğhıijklmnoöprsştuüvyz"; // diziyi tek bir string yap
 			System.out.print("Şifrelenecek metni gir: ");
